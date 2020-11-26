@@ -1,0 +1,119 @@
+@media (min-width:501px) and (max-width: 768px) {
+  .maine-menu_grid {
+    grid-template-columns: repeat(1,auto);
+    grid-template-rows: repeat(6,auto);
+  }
+  .container {
+    margin: auto;
+    max-width: 566px;
+  }
+  .footer_grid {
+    grid-template-columns: repeat(3,auto);
+  }
+  .footer {
+    font-size: 13px;
+  }
+  .footer_block-information p {
+    padding-top: 15px;
+  }
+  .footer_download  {
+    display: flex;
+    justify-content: center;
+  }
+  .footer_line {
+    width: 100%;
+  }
+  .information_img{
+    background-image: url("../Stores/world-1.svg");
+  }
+}
+@media (min-width:320px) and (max-width:500px) {
+  .maine-menu_grid {
+    grid-template-columns: repeat(1,auto);
+    grid-template-rows: repeat(6,auto);
+  }
+  .sales {
+    display: none;
+  }
+  .container {
+    margin: auto;
+    max-width: 308px;
+  }
+  .tavern-info .tavern-img .container {
+    padding-top: 80%;
+  }
+  .tavern-info_price {
+    max-width: 308px;
+    height: 180px;
+    box-shadow: 0 0 9px rgba(0,0,0,0.5);
+  }
+  .tavern-info_price h2 {
+    font-size: 24px;
+    font-weight: 100;
+    padding-top: 30px;
+  }
+  .tavern-text {
+    padding: 25px 25% 0px;;
+    margin: 0px;
+  }
+  .tavern-time {
+    margin: 10px 33%;
+  }
+  .tavern-menu {
+    border: none;
+  }
+  .tavern-menu_item {
+    display: none;
+  }
+  .tavern-item p {
+    text-align: center;
+    padding-top: 40%;
+    font-size: 22px;
+  }
+  .name-item_name img {
+    width: 102px;
+    height: 102px;
+  }
+  .name-item_name h5 {
+    font-size: 13px;
+    color: #1D1D1D;
+    margin-top: 5px;
+    line-height: 1;
+  }
+  .name-item_name:first-child p {
+    padding-top: 15px;
+  }
+  .name-item_name p {
+    padding-top: 33px;
+  }
+  .line {
+    width: 50px;
+    border: 1px solid #D8D8D8;;
+    margin: auto;
+  }
+  .main-menu {
+    margin-top: 40px;
+  }
+  .name-item_name {
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+  }
+  .name-item_name div{
+    padding-left: 0px;
+  }
+  .footer_block {
+    grid-template-columns: 1fr;
+  }
+  .footer_block li {
+    padding-bottom: 15px;
+  }
+  .footer_block ul {
+    margin-bottom: 0px;
+  }
+  .footer_download-market  {
+    display: block;
+  }
+  .information_img{
+    background-image: url("../Stores/world-2.svg");
+  }
+}

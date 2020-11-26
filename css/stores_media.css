@@ -1,0 +1,57 @@
+@media (min-width:501px) and (max-width: 768px) {
+  .content_grid{
+      grid-template-columns: repeat(2,auto);
+      grid-template-rows: repeat(4,auto);
+  }
+  .container {
+    margin: auto;
+    max-width: 650px;
+  }
+  .footer_grid {
+    grid-template-columns: repeat(3,auto);
+  }
+  .footer {
+    font-size: 13px;
+  }
+  .footer_block-information p {
+    padding-top: 15px;
+  }
+  .footer_download  {
+    display: flex;
+    justify-content: center;
+  }
+  .footer_line {
+    width: 100%;
+  }
+  .information_img{
+    background-image: url("../Stores/world-1.svg");
+  }
+}
+@media (min-width:320px) and (max-width:500px) {
+  .container {
+    margin: auto;
+    max-width: 308px;
+  }
+  .sales {
+    display: none;
+  }
+  .content_grid{
+      grid-template-columns: 1fr;
+      grid-gap: 5px;
+  }
+  .footer_block {
+    grid-template-columns: 1fr;
+  }
+  .footer_block li {
+    padding-bottom: 15px;
+  }
+  .footer_block ul {
+    margin-bottom: 0px;
+  }
+  .footer_download-market  {
+    display: block;
+  }
+  .information_img{
+    background-image: url("../Stores/world-2.svg");
+  }
+}
